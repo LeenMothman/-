@@ -1,0 +1,52 @@
+body {
+    background-color: #fff;
+}
+
+header {
+    text-align: center;
+    color: rgb(54, 33, 19);
+    background-color: rgb(220, 207, 151);
+    padding: 30px;
+}
+
+
+p {
+    font-size: 25px;
+}
+
+
+footer{
+    text-align: center;
+    padding: 25px;
+    background-color: rgb(220, 207, 151);
+}
+h2 {
+    font-size: 25px;
+    color: rgb(54, 33, 19);
+
+}
+
+.انواع-القهوة {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.انواع-القهوة div,
+.انواع-القهوة section {
+  text-align: center;
+}
+
+/* الريسبونسيف */
+@media screen and (max-width: 500px) {
+  .انواع-القهوة {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .انواع-القهوة img {
+    width: 90%;
+  }
+}
+
